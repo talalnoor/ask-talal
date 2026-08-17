@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask Talal — AI Agent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">// personal agent</p>
+      <h1>Ask <span class="accent">Talal</span></h1>
+      <p class="subtitle">
+        An AI agent trained on my projects, skills, and experience.
+        Ask it anything you'd ask me in an interview.
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/talalnoor" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://talalnoor.github.io" target="_blank" rel="noopener">Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="chat-section">
+    <div class="chat-window" id="chat-window">
+      <div class="chat-messages" id="chat-messages">
+        <div class="message agent">
+          Hi, I'm Talal's AI agent 👋 Ask me about my projects, skills, or experience —
+          try "What has Talal built with FastAPI?" or "Tell me about Rasta."
+        </div>
+      </div>
+      <form id="chat-form" class="chat-input-row">
+        <input
+          type="text"
+          id="chat-input"
+          placeholder="Ask something..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit" id="send-btn">Send</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Built by Talal Noor · FastAPI + Groq · <a href="https://github.com/talalnoor" target="_blank" rel="noopener">source</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
