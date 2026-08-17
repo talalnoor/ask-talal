@@ -1,6 +1,6 @@
 // IMPORTANT: Replace this with your deployed backend URL once you deploy to Railway.
 // Example: "https://ask-talal-backend-production.up.railway.app"
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://ask-talal-production.up.railway.app";
 
 const chatMessages = document.getElementById("chat-messages");
 const chatForm = document.getElementById("chat-form");
